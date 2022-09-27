@@ -1,0 +1,17 @@
+/*general rules*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Body color*/
+body{
+    background-color: rgb(223, 220, 220);
+}
+
+#logo{
+    height: 200px;
+    width: auto;
+    vertical-align: middle;
+}
