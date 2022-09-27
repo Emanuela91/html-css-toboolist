@@ -11,14 +11,54 @@ body{
 }
 
 /* Logo */
+header{
+    background-color: white;
+}
+
+/* Title */
 #logo{
-    height: 400px;
+    height: 100px;
     width: auto;
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#logotext{
+    font-size: 50px;
+    display: inline-block;
     vertical-align: middle;
 }
 
-#logo text{
-    font-size: 30px;
+/* Add Rules */
+#addgeneral{
+    background-color: white;
+    width:80%;
+    margin: 5px auto;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#addtask{
+    background-color: rgba(41, 41, 240, 0.867);
+    color: white;
+    border: 0;
+    padding: 7px;
+    border-radius: 10%;
+}
+
+#addsection{
+    color: gray;
+    border: solid 1px gray;
+    padding: 7px;
+    border-radius: 10%;
 }
 
 
+#general{
+    background-color: white;
+    width:80%;
+    margin: 5px auto;
+    padding-left: 40px;
