@@ -56,9 +56,63 @@ header{
     border-radius: 10%;
 }
 
-
+/* Main general rules */
 #general{
     background-color: white;
     width:80%;
     margin: 5px auto;
+    padding-top: 20px;
     padding-left: 40px;
+}
+
+/* Section New Task */
+#arrow{
+    font-size: 50%;
+}
+
+.check{
+    color:rgb(17, 205, 17) ;
+    border: solid 1px;
+    border-color: rgb(17, 205, 17);
+    border-radius: 100%;   
+}
+
+.edit{
+    background-color: rgba(41, 41, 240, 0.867);
+    color: white;
+    font-size: 7px;
+    padding: 5px 5px;    
+    border-radius: 30%
+}
+
+/*Section Today*/
+.Q1{
+    background-color: rgb(190, 32, 190);
+    color: white;
+    font-size: 7px;
+    padding: 5px 5px;    
+    border-radius: 30%
+}
+
+.recruiting{
+    background-color: rgb(23, 151, 68);
+    color: white;
+    font-size: 7px;
+    padding: 5px 5px;    
+    border-radius: 30%;
+}
+
+.mobile{
+    background-color: rgb(190, 88, 4);
+    color: white;
+    font-size: 7px;
+    padding: 5px 5px;    
+    border-radius: 30%;
+}
+
+.notcheck{
+    color:rgb(205, 17, 17);
+    border: solid 1px;
+    border-color: rgb(205, 17, 17);
+    border-radius: 100%;
+}
