@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif
 }
 
 /*Body color*/
@@ -65,6 +66,16 @@ header{
     padding-left: 40px;
 }
 
+h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+div{
+    padding-bottom: 15px;
+}
+
+
 /* Section New Task */
 #arrow{
     font-size: 50%;
@@ -75,6 +86,13 @@ header{
     border: solid 1px;
     border-color: rgb(17, 205, 17);
     border-radius: 100%;   
+}
+
+.notcheck{
+    color:rgb(205, 17, 17);
+    border: solid 1px;
+    border-color: rgb(205, 17, 17);
+    border-radius: 100%;
 }
 
 .edit{
@@ -110,9 +128,18 @@ header{
     border-radius: 30%;
 }
 
-.notcheck{
-    color:rgb(205, 17, 17);
-    border: solid 1px;
-    border-color: rgb(205, 17, 17);
-    border-radius: 100%;
+.website{
+    background-color: rgb(241, 10, 141);
+    color: white;
+    font-size: 7px;
+    padding: 5px 5px;    
+    border-radius: 30%;
+}
+
+.sales{
+    background-color: rgb(173, 221, 15);
+    color: white;
+    font-size: 7px;
+    padding: 5px 5px;    
+    border-radius: 30%;
 }
