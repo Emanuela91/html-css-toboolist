@@ -10,8 +10,14 @@ body{
     background-color: rgb(223, 220, 220);
 }
 
+/* Logo */
 #logo{
     height: 200px;
     width: auto;
     vertical-align: middle;
 }
+
+#logo text{
+    font-size: 30px;
+}
+
